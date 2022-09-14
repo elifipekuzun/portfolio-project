@@ -1,0 +1,24 @@
+.editor {
+  position: relative;
+  height: 100%;
+  width: calc(100% - 10px);
+}
+.editor button {
+  position: absolute;
+  right: 3%;
+  z-index: 1;
+  top: 3%;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.cell-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.editor:hover .button-format {
+  opacity: 1;
+}
