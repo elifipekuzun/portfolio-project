@@ -13,7 +13,7 @@
 }
 
 .cell-wrapper {
-  height: 100%;
+  height: calc(100% - 10px);
   width: 100%;
   display: flex;
   flex-direction: row;
